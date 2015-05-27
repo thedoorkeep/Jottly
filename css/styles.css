@@ -1,0 +1,136 @@
+
+  
+
+  body{
+  font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  
+  line-height: 1.6;
+  
+  font-weight: 400;
+  
+  font-family: "Droid Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  color: #222;
+
+  text-align: center; 
+
+}
+
+
+  .button,
+    button,
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"] {
+        /* Add your properties and values here to overwrite the others. */
+}
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  background-color:#ff0000; /* A red background */
+}
+
+h1{
+  font-family: "Roboto Slab", "HelveticaNeue", Helvetica, serif;
+  color: #FEFBF4;
+}
+
+h2{
+  font-family: "Roboto Slab", "HelveticaNeue", Helvetica, serif;
+}
+
+h3{
+  font-family: "Roboto Slab", "HelveticaNeue", Helvetica, serif;
+}
+
+h4{
+  font-family: "Roboto Slab", "HelveticaNeue", Helvetica, serif;
+}
+
+h5{
+  font-family: "Roboto Slab", "HelveticaNeue", Helvetica, serif;
+}
+
+#header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto !important;
+}
+
+#logo{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+#arrow{
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#what{
+  background-color: #FEFBF4;
+  padding: 30px;
+}
+
+#who{
+  background-color: #3E3D3B;
+  padding: 30px;
+
+}
+
+#hero{
+  height: 80%;
+  padding: 30px;
+}
+
+#footer{
+  background-color: #FEFBF4;
+  height: 5%;
+  padding: 2%;
+}
+
+#footer-logo{
+  width: 70px;
+}
+
+#CTA{
+  background-color: #4EB96E;
+  padding: 30px;
+  height: 150px;
+
+}
+
+.white{
+  color: #FEFBF4;
+}
+
+.black{
+  color: #3E3D3B;
+}
+
+.green{
+  color: #4EB96E;
+}
+
