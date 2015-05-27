@@ -71,10 +71,11 @@ h5{
   left: 0;
   z-index: -1;
   width: 100%;
+  height: auto !important;
 }
 
 #logo{
-  width: 10%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -99,8 +100,13 @@ h5{
 
 }
 
+#hero{
+  height: 80%;
+  padding: 30px;
+}
+
 #footer{
-  background-color: #3E3D3B;
+  background-color: #FEFBF4;
   height: 5%;
   padding: 2%;
 }
@@ -122,5 +128,9 @@ h5{
 
 .black{
   color: #3E3D3B;
+}
+
+.green{
+  color: #4EB96E;
 }
 
