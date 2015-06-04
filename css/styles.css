@@ -1,7 +1,4 @@
-
-  
-
-  body{
+body {
   font-size: 1.75em; /* currently ems cause chrome bug misinterpreting rems on body element */
   
   line-height: 1.6;
@@ -16,6 +13,26 @@
 
 }
 
+.form-cta {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-cta {
+  width: 70%;
+}
+
+.submit-cta {
+  vertical-align: top;
+  padding: 0;
+  width: 25%;
+  float: right;
+}
+
+.mini-margin {
+  margin-bottom: 10px;
+}
 
   .button,
     button,
@@ -117,8 +134,7 @@ h5{
 
 #CTA{
   background-color: #4EB96E;
-  padding: 30px;
-  height: 150px;
+  padding: 50px 0px;
 
 }
 
